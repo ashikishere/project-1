@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Mukta", sans-serif;
+}
+
+.warpper {
+  width: 1140px;
+  
+  margin: 0 auto;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+/* header style start here here */
+
+header {
+  width: 100%;
+  float: left;
+  /* height: 200px; */
+  background-color: white;
+  border-bottom: 2px solid rgb(11, 174, 214);
+}
+
+.logo {
+  width: 25%;
+  float: left;
+  padding: 10px 0;
+}
+.logo h1 {
+  font-family: "Lobster", cursive;
+  color: rgb(11, 174, 214);
+  font-size: 1.8rem;
+  margin-top: 25px;
+}
+
+.menu {
+  float: left;
+  width: 75%;
+  padding: 10px 0;
+}
+.menu ul {
+  display: block;
+  text-align: right;
+  margin-top: 19px;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu ul li a {
+  display: block;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.menu ul li a.home {
+  color: rgb(11, 174, 214);
+}
+
+.menu ul li a:hover {
+  color: rgb(11, 174, 214);
+  text-decoration: underline;
+}
+
+/* main section start here */
+.banar {
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding: 30px;
+  margin: 127px 0px 0px 0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+ 
+}
+.banar h2 {
+  
+  font-family: "Lobster", cursive;
+  color: crimson;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 2px;
+}
+
+.banar p {
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 70%;
+  color: rgba(128, 128, 128, 0.829);
+}
+
+
+/* about me section start here */
+
+.services_sec {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 40px;
+  /* background-color: #27ae60; */
+}
+
+
+
+.services_sec h3 {
+  font-size: 17px;
+  font-weight: 300;
+  color: rgba(128, 128, 128, 0.829);
+}
+
+
+.Services {
+  width: 100%;
+  float: left;
+  margin-top: 55px;
+  text-align: center;
+  /* border:1px solid black; */
+}
+.Services .services_1 {
+  float: left;
+  width: 30%;
+  padding: 40px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 5px 11px -3px #000000;
+  box-shadow: 2px 5px 11px -3px #000000;
+  /* transition: .6s; */
+}
+
+/* .Services .services_1:hover{
+    -webkit-box-shadow: 2px 5px 11px -3px #000000;
+    box-shadow: 2px 5px 11px -3px #000000;
+} */
+.Services .services_1 img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+.Services .services_1 h2 {
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.Services .services_1 p {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(31, 29, 29, 0.829);
+}
+
+.Services .services_2 {
+  float: left;
+  width: 30%;
+  padding: 40px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 5px 11px -3px #000000;
+  box-shadow: 2px 5px 11px -3px #000000;
+  margin-left: 57px;
+}
+
+.Services .services_2 img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+.Services .services_2 h2 {
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.Services .services_2 p {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(31, 29, 29, 0.829);
+}
+
+.Services .services_3 {
+  float: right;
+  width: 30%;
+  padding: 40px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 5px 11px -3px #000000;
+  box-shadow: 2px 5px 11px -3px #000000;
+  /* transition: .6s; */
+}
+/* .Services .services_3:hover{
+    -webkit-box-shadow: 2px 5px 11px -3px #000000;
+    box-shadow: 2px 5px 11px -3px #000000;
+} */
+
+.Services .services_3 img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+.Services .services_3 h2 {
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.Services .services_3 p {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(31, 29, 29, 0.829);
+}
+
+/* about me section star here */
+
+.aboutme {
+  width: 100%;
+  float: left;
+  margin-top: 70px;
+}
+
+.aboutmecon {
+  width: 100%;
+  float: left;
+  /* border: 1px solid black; */
+}
+
+.aboutmecon .aboutmeleft {
+  width: 45%;
+  height: 450px;
+  float: left;
+  position: relative;
+}
+.aboutmecon .aboutmeleft img {
+  width: 300px;
+  display: block;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutmecon .aboutmeright {
+  width: 45%;
+  float: right;
+  text-align: center;
+}
+
+.aboutmecon .aboutmid{
+    width: 0.8%;
+    height: 313px;
+    float: left;
+    margin-top: 61px;
+    background-color: rgb(11, 174, 214);
+}
+
+.aboutmecon .aboutmeright p {
+  padding: 20px 20px 0px 20px;
+  
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.829);
+  margin-bottom:30px ;
+}
+
+.abtspan {
+  text-transform: uppercase;
+  color: rgb(11, 174, 214);
+  font-weight: 700;
+}
+.aboutmecon .aboutmeright .btn {
+    padding: 18px 35px;
+    background-color: rgb(11, 174, 214);
+    color: #f3f3f3;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+
+ /*--------------------- first form design strart here------------------ */
+
+ .contc{
+     float: left;
+     width: 100%;
+ }
+.formhero {
+    width: 100%;
+    background-color: #fefefe;
+   
+  }
+  
+  .form-main {
+    padding: 13px 5px;
+    margin: 5px;
+  }
+  
+  .form-input-sub2 {
+    width: 100%;
+  
+    padding: 15px 0px;
+    margin: 12px 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(85, 83, 85);
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .form-input-sub2:focus {
+    outline: none;
+  }
+  
+  .form-sumbit {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btnashik {
+    border: none;
+    padding: 16px 30px;
+    background-color: rgb(11, 174, 214);
+    color: #f3f3f3;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+  }
+  
+  .btnashik:focus {
+    outline: none;
+  }
+  .btnashik:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+.form-text{
+    width: 100%;
+    margin-top: 20px;
+}
+.form_textarea{
+    width: 100%;
+    resize: none;
+    display: block;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+.form_textarea:focus {
+    outline: none;
+  }
+  
+
+  /* footer start here */
+
+  footer{
+      width: 100%;
+      float: left;
+      background-color: gray;
+  }
+
+  footer ul{
+    width: 100%;
+    text-align: center;
+  }
+  footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 18px;
+  }
+  footer ul li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 20px;
+    color: #000;
+}
+
+footer ul li a:hover{
+  background-color: black;
+}
+
+ 
