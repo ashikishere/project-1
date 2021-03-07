@@ -152,15 +152,15 @@ header {
   width: 30%;
   padding: 40px;
   background-color: #ffffff;
-  -webkit-box-shadow: 2px 5px 11px -3px #000000;
-  box-shadow: 2px 5px 11px -3px #000000;
-  /* transition: .6s; */
+  /* -webkit-box-shadow: 2px 5px 11px -3px #000000;
+  box-shadow: 2px 5px 11px -3px #000000; */
+  transition: .6s;
 }
 
-/* .Services .services_1:hover{
+.Services .services_1:hover{
     -webkit-box-shadow: 2px 5px 11px -3px #000000;
     box-shadow: 2px 5px 11px -3px #000000;
-} */
+}
 .Services .services_1 img {
   width: 80px;
   margin-bottom: 20px;
@@ -210,14 +210,14 @@ header {
   width: 30%;
   padding: 40px;
   background-color: #ffffff;
-  -webkit-box-shadow: 2px 5px 11px -3px #000000;
-  box-shadow: 2px 5px 11px -3px #000000;
-  /* transition: .6s; */
+  /* -webkit-box-shadow: 2px 5px 11px -3px #000000;
+  box-shadow: 2px 5px 11px -3px #000000; */
+  transition: .6s;
 }
-/* .Services .services_3:hover{
+.Services .services_3:hover{
     -webkit-box-shadow: 2px 5px 11px -3px #000000;
     box-shadow: 2px 5px 11px -3px #000000;
-} */
+}
 
 .Services .services_3 img {
   width: 80px;
